@@ -1,0 +1,214 @@
+* {
+    color: #ffffff;
+  }
+  
+  body {
+    font-family: Helvetica, sans-serif;
+      background:url("attachments/pool_3260.jpg") 
+       no-repeat center center fixed;
+    background-size: cover;
+    display: grid;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  footer {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    bottom: 0;
+    position: relative;
+  }
+  
+  header {
+    padding-top: 3%;
+    min-height: 70px;
+  }
+  
+  .container {
+  width:90%;
+  margin:center;
+  }
+  
+  .branding {
+    float: left;
+  }
+  
+  .branding h1 {
+    font-weight: normal;
+  }
+  
+  nav {
+    float: right;
+  }
+  
+  .navbar {
+    margin-top: 10%;
+  }
+  
+  .navbar li {
+    display: inline-block;
+    padding: 0 0px;
+  }
+  
+  .navbar li a {
+    color: rgba(255, 255, 255, 1);
+    font-weight: bold;
+    width: 5%;
+    padding: 20px 7px;
+    font-size: 20px;
+    
+  }
+  
+  .navbar li a:hover, .navbar .current a {
+    background-color:rgb(128, 0, 64,0.8);
+    border-radius: 5px ;
+  }
+  
+  /* Home Page Rulesets */
+  
+  #introduction {
+  text-align:center;
+  margin-top: 5%;
+  margin-bottom: 10%;
+  align-content: center;
+  justify-content: center;
+  }
+  
+  #introduction h1 {
+    font-size: 60px;
+  }
+  
+  #introduction p {
+    margin: 60px 240px;
+    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+  }
+  
+  #introduction a {
+    display: block;
+    width: 20%;
+    padding: 2% 2%;
+    margin: 0px auto;
+    margin-bottom: 50px;
+    color: #ffffff;
+    background-color:rgb(128, 0, 64,0.8);
+    font-weight: bold;
+    border-radius: 4px;
+  }
+  
+  #introduction a:hover {
+    background-color:rgba(77, 0, 38, 0.8);
+    font-weight: bold;
+  }
+  
+  article {
+    background-color:rgb(128, 0, 64,0.7);
+    display: flex;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    border-radius:5px;    
+      }
+  
+/* Responsive Settings */
+
+/* Tablet View */
+@media screen and (max-width: 1196px) {
+  #introduction {
+    text-align:center;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    align-content: center;
+    justify-content: center;
+    }
+    
+    #introduction h1 {
+      font-size: 60px;
+    }
+    
+    #introduction p {
+      margin: 60px 120px;
+      font-size: 22px;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 400;
+    }
+    
+    #introduction a {
+      display: block;
+      width: 20%;
+      padding: 2% 4%;
+      margin: 0px auto;
+      margin-bottom: 50px;
+      color: #ffffff;
+      background-color:rgb(128, 0, 64,0.8);
+      font-weight: bold;
+      border-radius: 4px;
+    }
+  }
+
+
+  /* Mobile View */
+    @media screen and ( max-width: 866px) {
+
+      body{
+        margin: 0;
+      }
+
+      .navbar {
+        margin-top: 5%;
+      }
+
+      .navbar li a {
+        color: rgba(255, 255, 255, 1);
+        font-weight: bold;
+        width: 5%;
+        padding: 20px 7px;
+        font-size: 26px;
+        justify-content: right;
+        align-items: right;
+        text-align: right;
+      }
+
+      #introduction {
+        text-align:center;
+        margin-top: 5%;
+        margin-bottom: 10%;
+        align-content: center;
+        justify-content: center;
+        }
+
+        #introduction h1 {
+          font-size: 60px;
+        }
+        
+        #introduction p {
+          margin: 60px 24px;
+          font-size: 22px;
+          font-family: 'Open Sans', sans-serif;
+          font-weight: 400;
+        }
+        
+        #introduction a {
+          display: block;
+          width: 40%;
+          padding: 4% 6%;
+          margin: 0px auto;
+          margin-bottom: 50px;
+          color: #ffffff;
+          background-color:rgb(128, 0, 64,0.8);
+          font-weight: bold;
+          border-radius: 4px;
+          font-size: 18px;
+        }
+
+        footer {
+          width: 100%;
+          text-align: left;
+          justify-content: left;
+          bottom: 0;
+          position: relative;
+        }
+}
